@@ -1,5 +1,18 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
 public class Motivate {
-    public static void main(String[] args) {
-        System.out.printf("JAVA RESTART!");
+    public static void main(String[] args) throws IOException {
+        String str1, str2;
+        str1 = "JAVA\t";
+        str2 = "RESTART!";
+        System.out.println(str1+str2);
+
+        String name;
+        BufferedReader inbr = new BufferedReader(new InputStreamReader(System.in));
+        name = inbr.readLine();
+        System.out.printf("입력값 : " + name);
     }
 }
