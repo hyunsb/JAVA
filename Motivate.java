@@ -10,9 +10,9 @@ public class Motivate {
         str2 = "RESTART!";
         System.out.println(str1+str2);
 
-        String name2;
+        String name;
         BufferedReader inbr = new BufferedReader(new InputStreamReader(System.in));
-        name2 = inbr.readLine();
-        System.out.printf("입력값 : " + name2);
+        name = inbr.readLine();
+        System.out.printf("입력값 : " + name);
     }
 }
